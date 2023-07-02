@@ -18,3 +18,5 @@ To run the project, please follow the steps below:
  ```bash
   cd .. && npm run dev && cd client && npm run dev
  ```
+
+To read my Medium article about websockets plase click [here](https://medium.com/@mankurt543aa/websockets-a-protocol-enabling-real-time-bi-directional-communication-fcda20c4ea81) to go
