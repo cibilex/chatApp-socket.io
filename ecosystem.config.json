@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "redis-ts-test",
+      "script": "npm run runDev",
+      "watch": true,
+      "ignore_watch": [
+        "node_modules/**/*"
+      ],
+      "instances": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+@hostname = http://localhost
+@port = 8000
+@host = {{hostname}}:{{port}}
+
+GET {{host}}/orders?orderNumber=10102
+
+###
+GET {{host}}/orders/from-redis?orderNumber=10102
+
+###
+DELETE {{host}}/orders?orderNumber=10102
+
+
